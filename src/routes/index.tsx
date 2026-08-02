@@ -1,11 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import danceAsset from "@/assets/dance.jpeg.asset.json";
-import hijrasAsset from "@/assets/hijras.jpeg.asset.json";
-import punjabiAsset from "@/assets/punjabi.jpeg.asset.json";
-import fallenAsset from "@/assets/fallen.jpeg.asset.json";
-import stolenShoesAsset from "@/assets/stolen-shoes.jpeg.asset.json";
-import breakingMoldAsset from "@/assets/breaking-mold.jpeg.asset.json";
-import faizAsset from "@/assets/faiz.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
