@@ -32,13 +32,13 @@ export const Route = createFileRoute("/")({
 });
 
 const articles = [
-  { src: stolenShoesAsset.url, title: "Stolen Shoes & Sweet Ransoms" },
-  { src: breakingMoldAsset.url, title: "Breaking The Mold" },
-  { src: faizAsset.url, title: "Celebrating 114 Years of Faiz" },
-  { src: danceAsset.url, title: "Dance — The Oldest Language" },
-  { src: hijrasAsset.url, title: "Hijras in the Peripheries of Mughal Courts" },
-  { src: punjabiAsset.url, title: "Punjabi = Paindu?" },
-  { src: fallenAsset.url, title: "Romanticizing “Fallen Women”" },
+  { src: "/images/stolen-shoes.jpeg", title: "Stolen Shoes & Sweet Ransoms" },
+  { src: "/images/breaking-mold.jpeg", title: "Breaking The Mold" },
+  { src: "/images/faiz.jpeg", title: "Celebrating 114 Years of Faiz" },
+  { src: "/images/dance.jpeg", title: "Dance — The Oldest Language" },
+  { src: "/images/hijras.jpeg", title: "Hijras in the Peripheries of Mughal Courts" },
+  { src: "/images/punjabi.jpeg", title: "Punjabi = Paindu?" },
+  { src: "/images/fallen.jpeg", title: "Romanticizing “Fallen Women”" },
 ];
 
 /* ---------- South Asian aesthetic SVG motifs ---------- */
