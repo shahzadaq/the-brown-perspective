@@ -77,20 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        name: "google-site-verification",
+        content: "3chAy0mDu_HEcnw91B5FOKeHDv57lLzCdPg_yc3UHeE",
+      },
       { title: "The Brown Perspective" },
-      {
-        name: "description",
-        content:
-          "The Brown Perspective — stories, culture, and conversation from a fresh point of view.",
-      },
+      { name: "description", content: "By South Asians, for South Asians. A youth-led organisation bringing together young people across South Asia for cultural and social commentary, articles, and art." },
+      { name: "author", content: "The Brown Perspective" },
       { property: "og:title", content: "The Brown Perspective" },
-      {
-        property: "og:description",
-        content:
-          "Stories, culture, and conversation from a fresh point of view.",
-      },
+      { property: "og:description", content: "By South Asians, for South Asians. A youth-led organisation bringing together young people across South Asia for cultural and social commentary, articles, and art." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
